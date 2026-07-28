@@ -1,7 +1,13 @@
-# Graph Extractor AI - Technical Documentation
+# Graph Extractor AI
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9C%94-brightgreen)](https://github.com/MichaelSpeaksTruth/GraphExtractor)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/MichaelSpeaksTruth/GraphExtractor/pulls)
+
+> **Fully open source under the [MIT License](./LICENSE). Free to use, fork, deploy, and build on.**
 
 ## 1. Overview
-Graph Extractor AI is a web application designed to extract embedded raster graphics (charts, graphs, figures) from research paper PDFs. It utilizes a deterministic extraction method via PyMuPDF (`fitz`), avoiding LLM-based hallucination, excessive compute overhead, and high latency. 
+Graph Extractor AI is a web application designed to extract embedded raster graphics (charts, graphs, figures) from research paper PDFs. It utilizes a deterministic extraction method via PyMuPDF (`fitz`), avoiding LLM-based hallucination, excessive compute overhead, and high latency.
 
 The architecture is split into a frontend client and a backend API, optimized specifically for free-tier hosting limits (e.g., Render's 512MB RAM limit and Vercel's 10-second serverless timeout).
 
